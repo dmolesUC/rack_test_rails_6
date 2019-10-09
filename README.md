@@ -1,5 +1,7 @@
 # Test case for running system specs with Rack::Test
 
+(See: [rails/rails #37410](https://github.com/rails/rails/issues/37410))
+
 Steps to reproduce:
 
 1. Build Docker stack
