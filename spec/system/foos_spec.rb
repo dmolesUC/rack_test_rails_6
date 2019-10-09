@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "Foos", type: :system do
   before do
-    driven_by(:rack_test)
+    driven_by(:rack_test, using: :rack_test)
   end
 
   describe 'show' do
